@@ -19,7 +19,7 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["Playing **Deepwoken**", ". . .", "LIFEWEAVING IN STARSWEPT VALLEY..", "EXILING SINNERS.."];
+const statusMessages = ["Playing 𝗗𝗲𝗲𝗽𝘄𝗼𝗸𝗲𝗻", ". . .", "LIFEWEAVING IN STARSWEPT VALLEY..", "EXILING SINNERS.."];
 const statusTypes = [ 'dnd', 'idle'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
